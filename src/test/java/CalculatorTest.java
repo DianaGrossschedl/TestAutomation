@@ -18,7 +18,7 @@ class CalculatorTest {
         int a = 1;
         int b = 2;
         double result = calculator.add(a,b);
-        Assertions.assertEquals(2, result);
+        Assertions.assertEquals(3, result);
     }
 
     @Test
