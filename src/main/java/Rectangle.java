@@ -6,7 +6,7 @@ public class Rectangle {
 
     public Rectangle(double width, double height) {
         this.width = checkInputParameter(width, "width");
-        this.height = height;
+        this.height = checkInputParameter(height, "height");
     }
 
     /**
@@ -16,7 +16,8 @@ public class Rectangle {
      */
     public double calculateArea() {
         // please implement method
-        return 0;
+
+        return (this.width * this.height);
     }
 
     /**
@@ -25,7 +26,7 @@ public class Rectangle {
      */
     public double calculateScope() {
         // please implement method
-        return 0;
+        return (this.width * 2 + this.height * 2);
     }
 
     /**
